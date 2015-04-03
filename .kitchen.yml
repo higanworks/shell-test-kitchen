@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: ubuntu-14.04
+    busser:
+      ruby_bindir: /usr/bin
+
+suites:
+  - name: default
+    run_list:
+    attributes:
+
+
