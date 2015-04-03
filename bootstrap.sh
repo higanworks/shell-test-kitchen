@@ -1,5 +1,5 @@
-#sudo apt-get update
-#sudo apt-get -y install nginx
+sudo apt-get update
+sudo apt-get -y install nginx
 
 
 ## For busser
